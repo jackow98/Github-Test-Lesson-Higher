@@ -2,7 +2,7 @@ import csv
 
 class Country:
     # Rank,Country,Country Code,Gold,Silver,Bronze,Total
-    def __init__(self, rank, country, code, gold, silver, bronze, total):
+    def _init_( rank, country, code, gold, silver, bronze, total):
         self.rank = rank
         self.country = country
         self.code = code
